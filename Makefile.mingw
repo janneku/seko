@@ -1,0 +1,12 @@
+CXXFLAGS = `/usr/i686-w64-mingw32/sys-root/mingw/bin/sdl-config --cflags` `/usr/i686-w64-mingw32/sys-root/mingw/bin/freetype-config --cflags` -W -Wall -g -O2 
+OBJS = main.o utils.o vec.o gl.o skeleton.o sound.o game.o menu.o effects.o zombie.o system.o stage.o
+CXX = i686-w64-mingw32-g++
+
+seko.exe: $(OBJS)
+	$(CXX) $(CXXFLAGS) $(OBJS) `/usr/i686-w64-mingw32/sys-root/mingw/bin/sdl-config --libs` `/usr/i686-w64-mingw32/sys-root/mingw/bin/freetype-config --libs` -lglew32 -lopengl32 -lglu32 -lvorbisfile -lpng -lcurl -lcrypto -o $@
+
+release: seko.exe
+	rm -rf seko-*.zip SEKO/
+	mkdir SEKO
+	cp -r seko-fedora-64 seko-ubuntu-32 seko.exe INTRO.txt *.dll data/ SEKO/
+	zip -r seko-$(shell date -I).zip SEKO/

@@ -1,0 +1,151 @@
+# Blender MTL File: 'luxzombie.blend'
+# Material Count: 14
+newmtl Material.001
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 0
+
+
+newmtl Material.001_lux.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.000000 0.000000 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl Peak_lux.png
+Ns 119.607843
+Ka 0.000000 0.000000 0.000000
+Kd 0.882910 0.286539 0.011772
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl WWhite
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl WWhite_lux.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl eeyepupilmid_lux.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 0.973333 0.973333
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl eyelines
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.080000 0.002595 0.017985
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl eyelines_lux.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.080000 0.002595 0.017985
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl eyepupil_lux.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.566974 0.640000 0.477642
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl eyes_lux.png
+Ns 233.333333
+Ka 0.000000 0.000000 0.000000
+Kd 0.527709 0.435163 0.448654
+Ks 1.000000 1.000000 1.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl face
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.631345 0.702475 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
+newmtl face_lux.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.631345 0.702475 0.800000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl hole_lux.png
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.046240 0.024431 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /home/janne/Textures/lux.png
+
+
+newmtl ttoung
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.048513 0.000000
+Ks 0.500000 0.500000 0.500000
+Ni 1.000000
+d 1.000000
+illum 2
+
+
